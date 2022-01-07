@@ -1,4 +1,4 @@
-(this is a script that will smooth out the surface, I'm using the bit
+(this is a script that will smooth out the surface, Im using the bit
 that came with my cnc. It has a 3mm diameter)
 S7500 M03 (Set speed to 7500, Turn on spindle)
 
