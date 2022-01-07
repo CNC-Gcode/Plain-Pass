@@ -1,0 +1,105 @@
+(this is a script that will smooth out the surface, I'm using the bit
+that came with my cnc. It has a 3mm diameter)
+S7500 M03 (Set speed to 7500, Turn on spindle)
+
+G01 Z-.2 (move down -2mm)
+
+G01 Y10 (Outline pass)
+G01 X10
+G01 Y-10
+G01 X-10
+
+
+G01 Y0.5(clear out pass)
+G01 X10
+G01 Y0.5
+G01 X-10
+G01 Y0.5
+G01 X10
+G01 Y0.5
+G01 X-10
+
+G01 Y0.5
+G01 X10
+G01 Y0.5
+G01 X-10
+G01 Y0.5
+G01 X10
+G01 Y0.5
+G01 X-10
+
+G01 Y0.5
+G01 X10
+G01 Y0.5
+G01 X-10
+G01 Y0.5
+G01 X10
+G01 Y0.5
+G01 X-10
+
+G01 Y0.5
+G01 X10
+G01 Y0.5
+G01 X-10
+G01 Y0.5
+G01 X10
+G01 Y0.5
+G01 X-10
+
+G01 Y0.5
+G01 X10
+G01 Y0.5
+G01 X-10
+G01 Y0.5
+G01 X10
+G01 Y0.5
+G01 X-10
+
+G01 Y0.5
+G01 X10
+G01 Y0.5
+G01 X-10
+G01 Y0.5
+G01 X10
+G01 Y0.5
+G01 X-10
+
+G01 Y0.5
+G01 X10
+G01 Y0.5
+G01 X-10
+G01 Y0.5
+G01 X10
+G01 Y0.5
+G01 X-10
+
+G01 Y0.5
+G01 X10
+G01 Y0.5
+G01 X-10
+G01 Y0.5
+G01 X10
+G01 Y0.5
+G01 X-10
+
+G01 Y0.5
+G01 X10
+G01 Y0.5
+G01 X-10
+G01 Y0.5
+G01 X10
+G01 Y0.5
+G01 X-10
+
+G01 Y0.5
+G01 X10
+G01 Y0.5
+G01 X-10
+G01 Y0.5
+G01 X10
+G01 Y0.5
+G01 X-10
+
+
+GO1 Z3
+M05
